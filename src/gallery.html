@@ -42,8 +42,20 @@
     </header>
 
     <main>
-        <section class="project-gallery">
+        <section class="gallery-header">
+            <div class="container">
+                <h1>Our Transformations!</h1>
+                <p>See our incredible work!</p>
+            </div>
+        </section>
 
+        <section class="project-gallery">
+            <div class="project-grid" id="project-container">
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Loading projects...</p>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -52,5 +64,6 @@
     </footer>
     
     <script src="js/scripts.js"></script>
+    <script src="js/gallery.js"></script>
 </body>
 </html>

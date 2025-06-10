@@ -20,6 +20,13 @@ body {
     color: #333; /* Dark text for readability */
 }
 
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* ===== Header and Navigation ===== */
 header {
     background: var(--dark-brown);
@@ -73,6 +80,7 @@ nav a:hover:after,
 nav a.active:after {
     width: 100%;
 }
+
 /* ===== Hero ===== */
 
 /* ===== About ===== */

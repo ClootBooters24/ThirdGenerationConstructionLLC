@@ -1,0 +1,10 @@
+[
+    {
+        "id": "bathroom-1",
+        "title": "Bathroom 1",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/bathroom1/before.jpg",
+        "after": "assets/projects/bathroom1/after.jpg"
+    }
+]
