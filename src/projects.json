@@ -6,5 +6,37 @@
         "tags": [],
         "before": "assets/projects/bathroom1/before.jpg",
         "after": "assets/projects/bathroom1/after.jpg"
+    },
+    {
+        "id": "bathroom-2",
+        "title": "Bathroom 2",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/bathroom2/before.jpg",
+        "after": "assets/projects/bathroom2/after.jpg"
+    },
+    {
+        "id": "bathroom-2-2",
+        "title": "Bathroom 2 - Part 2",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/bathroom2/before2.jpg",
+        "after": "assets/projects/bathroom2/after2.jpg"
+    },
+    {
+        "id": "bathroom-3",
+        "title": "Bathroom 3",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/bathroom3/before.jpg",
+        "after": "assets/projects/bathroom3/after.jpg"
+    },
+    {
+        "id": "bathroom-4",
+        "title": "Bathroom 4",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/bathroom4/before.jpg",
+        "after": "assets/projects/bathroom4/after.jpg"
     }
 ]

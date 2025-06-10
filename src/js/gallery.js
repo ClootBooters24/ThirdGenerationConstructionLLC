@@ -4,11 +4,9 @@ function createProjectCard(project) {
     projectCard.className = 'project-card';
     projectCard.innerHTML = `
         <div class="comparison-slider">
-            <div class="image-container">
+            <div class="slider-container">
                 <img class="before-image" src="${project.before}" alt="Before: ${project.title}">
-                <div class="after-container">
-                    <img class="after-image" src="${project.after}" alt="After: ${project.title}">
-                </div>
+                <img class="after-image" src="${project.after}" alt="After: ${project.title}">
                 <div class="slider-handle"></div>
                 <div class="before-label">Before</div>
                 <div class="after-label">After</div>
@@ -31,66 +29,86 @@ function initializeSliders() {
     
     sliders.forEach(slider => {
         const handle = slider.querySelector('.slider-handle');
-        const afterContainer = slider.querySelector('.after-container');
+        const beforeImage = slider.querySelector('.before-image');
         let isDragging = false;
-        
-        // Set initial position
-        afterContainer.style.width = '50%';
-        handle.style.left = '50%';
-        
+
+        // Helper to update slider
+        function updateSlider(clientX) {
+            const sliderRect = slider.getBoundingClientRect();
+            const offsetX = clientX - sliderRect.left;
+            const percent = Math.min(Math.max(offsetX / sliderRect.width * 100, 0), 100);
+            beforeImage.style.clipPath = `polygon(0 0, ${percent}% 0, ${percent}% 100%, 0 100%)`;
+            handle.style.left = `${percent}%`;
+        }
+
         // Mouse events
         handle.addEventListener('mousedown', function(e) {
             isDragging = true;
             e.preventDefault();
+
+            function onMouseMove(e) {
+                if (!isDragging) return;
+                updateSlider(e.clientX);
+            }
+            function onMouseUp() {
+                isDragging = false;
+                window.removeEventListener('mousemove', onMouseMove);
+                window.removeEventListener('mouseup', onMouseUp);
+            }
+            window.addEventListener('mousemove', onMouseMove);
+            window.addEventListener('mouseup', onMouseUp);
         });
-        
-        document.addEventListener('mousemove', function(e) {
-            if (!isDragging) return;
-            
-            const sliderRect = slider.getBoundingClientRect();
-            const offsetX = e.clientX - sliderRect.left;
-            const percent = Math.min(Math.max(offsetX / sliderRect.width * 100, 0), 100);
-            
-            afterContainer.style.width = percent + '%';
-            handle.style.left = percent + '%';
-        });
-        
-        document.addEventListener('mouseup', function() {
-            isDragging = false;
-        });
-        
-        // Touch events for mobile
+
+        // Touch events
         handle.addEventListener('touchstart', function(e) {
             isDragging = true;
             e.preventDefault();
+
+            function onTouchMove(e) {
+                if (!isDragging) return;
+                const touch = e.touches[0];
+                updateSlider(touch.clientX);
+            }
+            function onTouchEnd() {
+                isDragging = false;
+                window.removeEventListener('touchmove', onTouchMove);
+                window.removeEventListener('touchend', onTouchEnd);
+            }
+            window.addEventListener('touchmove', onTouchMove);
+            window.addEventListener('touchend', onTouchEnd);
         });
-        
-        document.addEventListener('touchmove', function(e) {
-            if (!isDragging) return;
-            
-            const sliderRect = slider.getBoundingClientRect();
-            const touch = e.touches[0];
-            const offsetX = touch.clientX - sliderRect.left;
-            const percent = Math.min(Math.max(offsetX / sliderRect.width * 100, 0), 100);
-            
-            afterContainer.style.width = percent + '%';
-            handle.style.left = percent + '%';
-        });
-        
-        document.addEventListener('touchend', function() {
-            isDragging = false;
-        });
+
+        // Set initial position
+        handle.style.left = '50%';
+        beforeImage.style.clipPath = `polygon(0 0, 50% 0, 50% 100%, 0 100%)`;
     });
 }
 
-// Generate project cards
+// Load projects from JSON file
 document.addEventListener('DOMContentLoaded', function() {
-    const container = document.getElementById('project-container');
-    container.innerHTML = '';
+    // Only run on gallery page
+    if (!document.querySelector('.gallery-header')) return;
     
-    projects.forEach(project => {
-        container.appendChild(createProjectCard(project));
-    });
-    
-    initializeSliders();
+    fetch('projects.json')
+        .then(response => response.json())
+        .then(projects => {
+            const container = document.getElementById('project-container');
+            container.innerHTML = '';
+            
+            projects.forEach(project => {
+                container.appendChild(createProjectCard(project));
+            });
+            
+            initializeSliders();
+        })
+        .catch(error => {
+            console.error('Error loading projects:', error);
+            const container = document.getElementById('project-container');
+            container.innerHTML = `
+                <div class="error-message">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <p>Could not load projects. Please try again later.</p>
+                </div>
+            `;
+        });
 });
