@@ -38,5 +38,38 @@
         "tags": [],
         "before": "assets/projects/bathroom4/before.jpg",
         "after": "assets/projects/bathroom4/after.jpg"
+    },
+    {
+        "id": "bathroom-5",
+        "title": "Bathroom 5",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/bathroom5/before.jpg",
+        "after": "assets/projects/bathroom5/after.jpg"
+    },
+    {
+        "id": "bathroom-6",
+        "title": "Bathroom 6",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/bathroom6/before.jpg",
+        "after": "assets/projects/bathroom6/after.jpg"
+    },
+    {
+        "id": "evinstall-1",
+        "title": "EV Install 1",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/EVInstall/before.jpg",
+        "after": "assets/projects/EVInstall/after.jpg"
+    },
+    {
+        "id": "fullbathroom-1",
+        "title": "Full Bathroom 1",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/FullBathroom/before.jpg",
+        "after": "assets/projects/FullBathroom/after.jpg"
     }
+
 ]

@@ -10,13 +10,14 @@ THIRDGENERATIONCONSTRUCTIONLLC
 │   ├── index.html        # Main page of the website
 │   ├── gallery.html      # Gallery page showcasing construction projects
 │   ├── contact.html      # Contact page with a form for inquiries
+│   ├── 404.html          # 
 │   ├── css
 │   │   └── styles.css    # Styles for the website
-│   └── js
-│       └── scripts.js    # JavaScript for interactivity
-├── assets
-│   ├── images            # Directory for images used in the website
-│   └── fonts             # Directory for custom fonts
+│   ├── js
+│   │    └── scripts.js   # JavaScript for interactivity
+│   └──assets
+│        └── images       # Directory for images used in the website
+│        └── fonts        # Directory for custom fonts
 └── README.md             # Documentation for the project
 ```
 
@@ -37,6 +38,7 @@ THIRDGENERATIONCONSTRUCTIONLLC
 - HTML
 - CSS
 - JavaScript
+- CloudFlare
 
 ## License
 

@@ -3,6 +3,6 @@
     "compatibility_date": "2025-06-11",
     "assets": {
         "directory": "./",
-        "not_found_handling": "none"
+        "not_found_handling": "./404.html"
     }
 }
