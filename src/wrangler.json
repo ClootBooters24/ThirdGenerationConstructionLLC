@@ -3,6 +3,6 @@
     "compatibility_date": "2025-06-11",
     "assets": {
         "directory": "./assets",
-        "not_found_handling": ""
+        "not_found_handling": "none"
     }
 }
