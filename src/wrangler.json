@@ -2,7 +2,7 @@
     "name": "thirdgenerationconstructionllc",
     "compatibility_date": "2025-06-11",
     "assets": {
-        "directory": "./assets",
+        "directory": "./src",
         "not_found_handling": "none"
     }
 }
