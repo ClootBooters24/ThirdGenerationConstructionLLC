@@ -2,7 +2,7 @@
     {
         "id": "bathroom-1",
         "title": "Bathroom 1",
-        "description": "",
+        "description": "It was giving “I paid $49.99 for the night” when it should’ve been giving “I booked a luxury spa retreat.” Don’t worry — we gave this bathroom the glow-up it desperately needed.",
         "tags": [],
         "before": "assets/projects/bathroom1/before.jpg",
         "after": "assets/projects/bathroom1/after.jpg"
@@ -10,7 +10,7 @@
     {
         "id": "bathroom-2",
         "title": "Bathroom 2",
-        "description": "",
+        "description": "TWO bathrooms. ONE house. FOUR days.",
         "tags": [],
         "before": "assets/projects/bathroom2/before.jpg",
         "after": "assets/projects/bathroom2/after.jpg"
@@ -18,7 +18,7 @@
     {
         "id": "bathroom-2-2",
         "title": "Bathroom 2 - Part 2",
-        "description": "",
+        "description": "TWO bathrooms. ONE house. FOUR days.",
         "tags": [],
         "before": "assets/projects/bathroom2/before2.jpg",
         "after": "assets/projects/bathroom2/after2.jpg"
@@ -26,7 +26,7 @@
     {
         "id": "bathroom-3",
         "title": "Bathroom 3",
-        "description": "",
+        "description": "From Struggle to Safety! This bathroom transformation is more than just a remodel — it’s a game-changer. Before, the tub was a daily challenge that made the homeowner feel unsafe and limited. Now, with a walk-in shower upgrade, he can stay comfortably and confidently in his own home for years to come. This is why I do what I do — helping people stay safe, independent, and happy right where they belong. Major transformation. Life-changing impact.",
         "tags": [],
         "before": "assets/projects/bathroom3/before.jpg",
         "after": "assets/projects/bathroom3/after.jpg"
@@ -34,7 +34,7 @@
     {
         "id": "bathroom-4",
         "title": "Bathroom 4",
-        "description": "",
+        "description": "Goodbye tub, hello glow-up. Shower game = leveled all the way up! Tiles hittin’,glass gleamin’, and those bronze fixtures? Chef’s kiss. If your bathroom’s still stuck in 2005… we need to talk!",
         "tags": [],
         "before": "assets/projects/bathroom4/before.jpg",
         "after": "assets/projects/bathroom4/after.jpg"
@@ -42,7 +42,7 @@
     {
         "id": "bathroom-5",
         "title": "Bathroom 5",
-        "description": "",
+        "description": "Scrub-a-dub-WHOA! We kicked the grime to the curb and gave this bathroom a serious glow-up.",
         "tags": [],
         "before": "assets/projects/bathroom5/before.jpg",
         "after": "assets/projects/bathroom5/after.jpg"
@@ -50,7 +50,7 @@
     {
         "id": "bathroom-6",
         "title": "Bathroom 6",
-        "description": "",
+        "description": "From “eww” to “ooooh!” This bathroom glow-up went from horror film set to spa retreat! Old tub: 1 star (would not soak again)! New shower: 5 stars and a seat to match! No more mystery stains, just marble gains!",
         "tags": [],
         "before": "assets/projects/bathroom6/before.jpg",
         "after": "assets/projects/bathroom6/after.jpg"
@@ -58,7 +58,7 @@
     {
         "id": "evinstall-1",
         "title": "EV Install 1",
-        "description": "",
+        "description": "Don’t let your EV run on empty! Public chargers got you waiting? Ain’t nobody got time for that! Get your home EV charger installed and juice up overnight like a boss.",
         "tags": [],
         "before": "assets/projects/EVInstall/before.jpg",
         "after": "assets/projects/EVInstall/after.jpg"
@@ -66,7 +66,7 @@
     {
         "id": "fullbathroom-1",
         "title": "Full Bathroom 1",
-        "description": "",
+        "description": "This was NOT your average bathroom update… We went ALL IN — complete transformation in just 3 days! BEFORE: A cramped, outdated space that was falling apart. AFTER: A clean, safe, beautiful bathroom that feels like a spa. All this done in just 3 DAYS, no shortcuts, no BS. We do the work. We do it fast. We do it RIGHT.",
         "tags": [],
         "before": "assets/projects/FullBathroom/before.jpg",
         "after": "assets/projects/FullBathroom/after.jpg"
@@ -74,7 +74,7 @@
     {
         "id": "bathroom-7",
         "title": "Bathroom 7",
-        "description": "",
+        "description": "From avocado tub TO spa club! This bathroom said goodbye to 1973 and hello to sleek, chic, and totally unique! No more mustard madness — now it’s glass, class, and a whole lotta sass!",
         "tags": [],
         "before": "assets/projects/bathroom7/before.jpg",
         "after": "assets/projects/bathroom7/after.jpg"
@@ -82,7 +82,7 @@
     {
         "id": "bathroom-8",
         "title": "Bathroom 8",
-        "description": "",
+        "description": "Clean lines, fresh vibes Can’t stop staring at this shower makeover!",
         "tags": [],
         "before": "assets/projects/bathroom8/before.jpg",
         "after": "assets/projects/bathroom8/after.jpg"
@@ -90,7 +90,7 @@
     {
         "id": "bathroom-9",
         "title": "Bathroom 9",
-        "description": "",
+        "description": "Bye-bye basic… Hello bold! This bathroom just got a major glow-up! Before: Tiny shower. Meh walls. After: Classy. Sleek. Marble magic.",
         "tags": [],
         "before": "assets/projects/bathroom9/before.jpg",
         "after": "assets/projects/bathroom9/after.jpg"
@@ -98,7 +98,7 @@
         {
         "id": "deck-1",
         "title": "Deck 1",
-        "description": "",
+        "description": "Nothing like working on a sketchy deck 40’ in the air... This rebuild was much needed though!",
         "tags": [],
         "before": "assets/projects/deck1/before.jpg",
         "after": "assets/projects/deck1/after.jpg"
@@ -106,7 +106,7 @@
     {
         "id": "flooring-1",
         "title": "Flooring 1",
-        "description": "",
+        "description": "New bedroom flooring we put down for a repeat customer. We love repeat customers!",
         "tags": [],
         "before": "assets/projects/flooring1/before.jpg",
         "after": "assets/projects/flooring1/after.jpg"
@@ -114,7 +114,7 @@
     {
         "id": "flooring-2",
         "title": "Flooring 2",
-        "description": "",
+        "description": "Some beautiful tile work we did recently during a small renovation.",
         "tags": [],
         "before": "assets/projects/flooring2/before.jpg",
         "after": "assets/projects/flooring2/after.jpg"
@@ -122,9 +122,17 @@
     {
         "id": "flooring-3",
         "title": "Flooring 3",
-        "description": "",
+        "description": "Some beautiful tile work we did recently during a small renovation.",
         "tags": [],
         "before": "assets/projects/flooring3/before.jpg",
         "after": "assets/projects/flooring3/after.jpg"
+    },
+    {
+        "id": "waterheater-1",
+        "title": "Water Heater 1",
+        "description": "Upgraded this dinosaur water heater to a tankless heater. We also updated the closet to make it usable!",
+        "tags": [],
+        "before": "assets/projects/waterheater1/before.jpg",
+        "after": "assets/projects/waterheater1/after.jpg"
     }
 ]
