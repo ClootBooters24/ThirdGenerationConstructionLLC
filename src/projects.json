@@ -70,6 +70,61 @@
         "tags": [],
         "before": "assets/projects/FullBathroom/before.jpg",
         "after": "assets/projects/FullBathroom/after.jpg"
+    },
+    {
+        "id": "bathroom-7",
+        "title": "Bathroom 7",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/bathroom7/before.jpg",
+        "after": "assets/projects/bathroom7/after.jpg"
+    },
+    {
+        "id": "bathroom-8",
+        "title": "Bathroom 8",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/bathroom8/before.jpg",
+        "after": "assets/projects/bathroom8/after.jpg"
+    },
+    {
+        "id": "bathroom-9",
+        "title": "Bathroom 9",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/bathroom9/before.jpg",
+        "after": "assets/projects/bathroom9/after.jpg"
+    },
+        {
+        "id": "deck-1",
+        "title": "Deck 1",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/deck1/before.jpg",
+        "after": "assets/projects/deck1/after.jpg"
+    },
+    {
+        "id": "flooring-1",
+        "title": "Flooring 1",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/flooring1/before.jpg",
+        "after": "assets/projects/flooring1/after.jpg"
+    },
+    {
+        "id": "flooring-2",
+        "title": "Flooring 2",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/flooring2/before.jpg",
+        "after": "assets/projects/flooring2/after.jpg"
+    },
+    {
+        "id": "flooring-3",
+        "title": "Flooring 3",
+        "description": "",
+        "tags": [],
+        "before": "assets/projects/flooring3/before.jpg",
+        "after": "assets/projects/flooring3/after.jpg"
     }
-
 ]
