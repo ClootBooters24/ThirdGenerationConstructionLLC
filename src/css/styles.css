@@ -95,6 +95,20 @@ nav a.active:after {
     object-fit: contain;
 }
 
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: var(--light-bg);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding-bottom: 60px;
+}
+
+.contact-form, .contact-form-container {
+    padding-bottom: 60px; /* Adjust this value to match or exceed your footer's height */
+}
+
 /* ===== Portfolio Page ===== */
 .project-grid {
     display: grid;
@@ -297,7 +311,7 @@ footer {
     background: var(--dark-brown);
     color: var(--gold);
     text-align: center;
-    padding: 20px 0;
+    padding: 18px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
