@@ -14,14 +14,14 @@
 
 body {
     font-family: 'DM Serif Text', serif;
-    /* font-size: ; */
     margin: 0;
     padding: 0;
     background-color: #f4f1e6; /* Light background for contrast */
     color: #333; /* Dark text for readability */
 }
 
-.container {
+.container, 
+h1 {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -67,7 +67,6 @@ nav a.active {
     color: var(--orange);
 }
 
-
 nav a:after {
     content: '';
     position: absolute;
@@ -84,9 +83,30 @@ nav a.active:after {
     width: 100%;
 }
 
-/* ===== Hero ===== */
+/* ==== Home Page ==== */
+.owner-section {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* align-items: right; */
+    justify-content: center;
+    padding: 60px 0;
+    gap: 30px;
+}
 
-/* ===== About ===== */
+.owner-photo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.owner-photo {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 /* ===== Contact Page ===== */
 .social-icon {
@@ -291,7 +311,6 @@ nav a.active:after {
 
 /* ===== License and Legal ===== */
 .license-section {
-    /* background: var(--light-bg); */
     padding: 40px 0 30px 0;
     text-align: center;
 }
@@ -316,6 +335,39 @@ footer {
     bottom: 0;
     width: 100%;
     z-index: 1000;
+}
+
+/* ==== 404 ==== */
+.not-found {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.not-found h1 {
+    font-size: 3rem;
+    color: var(--dark-brown, #431a10);
+    margin-bottom: 20px;
+}
+
+.not-found p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.not-found .btn {
+    display: inline-block;
+    padding: 12px 32px;
+    background: var(--gold, #d6bb90);
+    color: var(--dark-brown, #431a10);
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.not-found .btn:hover {
+    background: var(--orange, #f9a867);
+    color: #fff;
 }
 
 /*
