@@ -20,6 +20,13 @@ body {
     color: #333; /* Dark text for readability */
 }
 
+h1 {
+    font-size: 2.0rem; /* Adjust as needed for your design */
+    line-height: 1.1;
+    margin-bottom: 0.5em;
+    color: var(--dark-brown);
+}
+
 .container, 
 h1 {
     color: var(--dark-brown);
@@ -29,6 +36,7 @@ h1 {
     padding: 0 15px;
     justify-content: center;
     text-align: center;
+    padding-top: 10px; /* Add some top padding for spacing */
 }
 
 /* ===== Header and Navigation ===== */
