@@ -7,25 +7,38 @@ This project is a simple website for a construction company, featuring a main pa
 ```
 THIRDGENERATIONCONSTRUCTIONLLC
 ├── src
-│   ├── index.html        # Main page of the website
-│   ├── gallery.html      # Gallery page showcasing construction projects
-│   ├── contact.html      # Contact page with a form for inquiries
-│   ├── 404.html          # 
+│   ├── projects.json       # Data for construction projects
+│   ├── wrangler.json       # Configuration for Cloudflare deployment
+│   ├── index.html          # Main page of the website
+│   ├── gallery.html        # Gallery page showcasing construction projects
+│   ├── contact.html        # Contact page with a form for inquiries
+│   ├── 404.html            # 404 page for incorrect links
 │   ├── css
-│   │   └── styles.css    # Styles for the website
+│   │   └── styles.css      # Styles for the website
 │   ├── js
-│   │    └── scripts.js   # JavaScript for interactivity
-│   └──assets
-│        └── images       # Directory for images used in the website
-│        └── fonts        # Directory for custom fonts
-└── README.md             # Documentation for the project
+│   │   ├── scripts.js      # JavaScript for interactivity
+│   │   └── gallery.js      # JavaScript for gallery functionality
+│   └── assets
+│       ├── images          # Directory for images used in the website
+│       ├── fonts           # Directory for custom fonts
+│       ├── icons           # Directory for icon assets
+│       └── projects        # Directory for project-specific assets
+│
+└── README.md               # Documentation for the project
 ```
 
 ## Setup Instructions
 
-1. Clone the repository to your local machine.
-2. Open the `src/index.html` file in a web browser to view the main page.
-3. Navigate to the `gallery.html` and `contact.html` pages for additional content.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/ThirdGenerationConstructionLLC.git
+   cd ThirdGenerationConstructionLLC
+   ```
+2. **Open the site locally:**  
+   Open `src/index.html` in your browser.
+
+3. **View other pages:**  
+   Open `gallery.html` and `contact.html` in the same way.
 
 ## Features
 
@@ -35,10 +48,11 @@ THIRDGENERATIONCONSTRUCTIONLLC
 
 ## Technologies Used
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 - CloudFlare
+- Formspree
 
 ## License
 

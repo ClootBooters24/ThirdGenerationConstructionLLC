@@ -22,6 +22,7 @@ body {
 
 .container, 
 h1 {
+    color: var(--dark-brown);
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -84,10 +85,24 @@ nav a.active:after {
 }
 
 /* ==== Home Page ==== */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: var(--gold);
+    color: var(--dark-brown);
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background: var(--orange);
+    color: #fff;
+}
+
 .owner-section {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* align-items: right; */
     justify-content: center;
     padding: 60px 0;
     gap: 30px;
@@ -97,7 +112,6 @@ nav a.active:after {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .owner-photo {
@@ -106,6 +120,48 @@ nav a.active:after {
     height: auto;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container .license-container {
+    padding-bottom: 60px; /* Adjust this value to match or exceed your footer's height */
+}
+
+.license-section {
+    padding: 40px 0;
+    text-align: center;
+    padding-bottom: 120px; /* Adjust this value to match or exceed your footer's height */
+}
+
+.license-section h2 {
+    color: var(--dark-brown);
+    margin-bottom: 16px;
+}
+
+.license-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.license-list li {
+    background: var(--light-bg);
+    color: var(--dark-brown);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.license-list li:hover {
+    background: var(--gold);
+    color: var(--dark-brown);
+}
+
+.h3 {
+    color: var(--dark-brown);
+    margin-bottom: 20px;
 }
 
 /* ===== Contact Page ===== */
@@ -307,22 +363,6 @@ nav a.active:after {
     font-size: 3rem;
     color: #e74c3c;
     margin-bottom: 20px;
-}
-
-/* ===== License and Legal ===== */
-.license-section {
-    padding: 40px 0 30px 0;
-    text-align: center;
-}
-.license-section h2 {
-    color: var(--dark-brown);
-    margin-bottom: 16px;
-}
-.license-description {
-    color: #666;
-    font-size: 1.1rem;
-    max-width: 600px;
-    margin: 0 auto;
 }
 
 /* ===== Footer ===== */
