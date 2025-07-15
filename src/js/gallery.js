@@ -5,8 +5,8 @@ function createProjectCard(project) {
     projectCard.innerHTML = `
         <div class="comparison-slider">
             <div class="slider-container">
-                <img class="before-image" src="${project.before}" alt="Before: ${project.title}">
-                <img class="after-image" src="${project.after}" alt="After: ${project.title}">
+                <img class="before-image" src="${project.before}" alt="Before: ${project.title}" loading="lazy">
+                <img class="after-image" src="${project.after}" alt="After: ${project.title}" loading="lazy">
                 <div class="slider-handle"></div>
                 <div class="before-label">Before</div>
                 <div class="after-label">After</div>
