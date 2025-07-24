@@ -12,6 +12,11 @@
     --text-dark: #333333;
 }
 
+/* Ensure all elements use border-box sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'DM Serif Text', serif;
     margin: 0;
@@ -37,6 +42,10 @@ h1 {
     justify-content: center;
     text-align: center;
     padding-top: 10px; /* Add some top padding for spacing */
+}
+
+section h1 {
+    font-size: 2.0rem; /* Adjust as needed for your design */
 }
 
 /* ===== Header and Navigation ===== */
@@ -173,27 +182,161 @@ nav a.active:after {
 }
 
 /* ===== Contact Page ===== */
+.contact-header {
+    padding: 60px 0 30px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.contact-header h1 {
+    color: var(--dark-brown);
+    font-size: 2.2rem;
+    margin-bottom: 0.5em;
+}
+
+.contact-header p {
+    color: var(--orange);
+    font-size: 1.25rem;
+    margin-bottom: 1.25em;
+}
+
+.contact-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 24px;
+}
+
+.socials {
+    margin-bottom: 0;
+}
+
 .social-icon {
     width: 48px;
     height: 48px;
     object-fit: contain;
+    transition: transform 0.2s;
+    margin-top: 1.25em;
+}
+
+.social-icon:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.contact-phone a {
+    color: var(--dark-brown);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    background: var(--gold);
+    padding: 8px 20px;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.contact-phone a:hover {
+    background: var(--orange);
+    color: #fff;
+}
+
+.contact-form-container {
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    padding: 32px 24px;
+    margin: 0 auto 40px auto;
+    max-width: 500px;
+}
+
+.fs-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.fs-label {
+    font-weight: bold;
+    color: var(--dark-brown);
+    margin-bottom: 6px;
+    display: block;
+    text-align: left;
+}
+
+.fs-input,
+.fs-textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e0d6c3;
+    border-radius: 4px;
+    font-size: 1rem;
+    background: var(--light-bg);
+    color: var(--text-dark);
+    transition: border 0.2s;
+}
+
+.fs-input:focus,
+.fs-textarea:focus {
+    border-color: var(--orange);
+    outline: none;
+}
+
+.fs-textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.fs-description {
+    font-size: 0.95rem;
+    color: #888;
+    margin-top: 4px;
+}
+
+.fs-button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fs-button {
+    background: var(--gold);
+    color: var(--dark-brown);
+    border: none;
+    border-radius: 4px;
+    padding: 12px 28px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.fs-button:hover {
+    background: var(--orange);
+    color: #fff;
 }
 
 .contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background: var(--light-bg);
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    padding-bottom: 60px;
-}
-
-.contact-form, .contact-form-container {
-    padding-bottom: 60px; /* Adjust this value to match or exceed your footer's height */
+    padding-bottom: 120px; /* Adjust this value to match or exceed your footer's height */
 }
 
 /* ===== Portfolio Page ===== */
+.gallery-header {
+    padding: 60px 0 30px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.gallery-header h1 {
+    color: var(--dark-brown);
+    font-size: 2.2rem;
+    margin-bottom: 0.5em;
+}
+
+.gallery-header p {
+    color: var(--orange);
+    font-size: 1.25rem;
+    margin-bottom: 1.25em;
+}
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
