@@ -561,6 +561,13 @@ footer {
     color: #fff;
 }
 
+@media (max-width: 600px) {
+    footer {
+        padding: 8px 0;
+        font-size: 0.95rem;
+    }
+}
+
 /*
 Primary: #d6bb90 (light gold) and #f9a867 (orange)
 Secondary: #f7ca4d (yellow) and #431a10 (dark brown)
