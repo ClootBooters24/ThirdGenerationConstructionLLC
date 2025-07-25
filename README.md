@@ -7,6 +7,7 @@ This project is a simple website for a construction company, featuring a main pa
 ```
 THIRDGENERATIONCONSTRUCTIONLLC
 ├── src
+│   ├── sitemap.xml         # Sitemap for Google Search Console
 │   ├── projects.json       # Data for construction projects
 │   ├── wrangler.json       # Configuration for Cloudflare deployment
 │   ├── index.html          # Main page of the website
