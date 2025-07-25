@@ -528,6 +528,11 @@ footer {
     z-index: 1000;
 }
 
+.creatorNote {
+    font-size: 0.75rem;
+    color: #888;
+}
+
 /* ==== 404 ==== */
 .not-found {
     padding: 60px 0;
