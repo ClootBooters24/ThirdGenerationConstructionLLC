@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": [],
+  "404": "/404.html"
+}
