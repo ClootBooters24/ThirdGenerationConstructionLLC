@@ -5,15 +5,15 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://third-genconstruction.com/gallery.html</loc>
+        <loc>https://third-genconstruction.com/gallery</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://third-genconstruction.com/contact.html</loc>
+        <loc>https://third-genconstruction.com/contact</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://third-genconstruction.com/404.html</loc>
+        <loc>https://third-genconstruction.com/404</loc>
         <priority>0.1</priority>
     </url>
 </urlset>
