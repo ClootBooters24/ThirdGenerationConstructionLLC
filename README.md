@@ -46,7 +46,7 @@ THIRDGENERATIONCONSTRUCTIONLLC
 - Responsive design for optimal viewing on various devices.
 - Gallery page to display construction project images.
 - Contact form for users to reach out to the company.
-
+  
 ## Technologies Used
 
 - HTML5
